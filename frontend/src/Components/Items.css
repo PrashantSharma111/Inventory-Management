@@ -1,0 +1,9 @@
+.itemsBtn{
+    width: 100px;
+    margin: auto;
+	border: 0px;
+	border-radius: 7px;
+	background-color: #2D3436;
+	padding: 10px 0px;
+	color: #FFCEA6;
+}

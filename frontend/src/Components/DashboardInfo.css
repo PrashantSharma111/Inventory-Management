@@ -1,0 +1,18 @@
+.info-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.info-container>div {
+    padding: 20px;
+    background-color: rgba(45, 52, 54, 0.8);
+    color: #FFCEA6;
+    border-radius: 6px;
+    margin: 0px 10px;
+    border: 1px solid #000000;
+    font-family: Poppins;
+    font-weight: 200;
+}

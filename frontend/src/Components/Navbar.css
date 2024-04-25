@@ -1,0 +1,30 @@
+nav{
+    background-color: #fff9f4;
+    height: 10vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    padding: 8px 12px;
+    background-color: #2D3436;
+    color: #FFCEA6;
+    border: none;
+    border-radius: 7px;
+}
+
+.link{
+    padding: 8px;
+    color: #2D3436;
+}
+
+.highlight{
+    border-bottom: 2px solid #2D3436;
+}
+
+.hindi{
+    font-size: 22px;
+    margin: -5px 10px;
+}

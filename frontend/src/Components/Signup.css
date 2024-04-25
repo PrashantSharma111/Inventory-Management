@@ -1,0 +1,85 @@
+.signupContainer h2{
+	color: #2D3436;
+}
+
+.signupContainer {
+	margin: auto;
+	height: 80vh;
+	border: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	border: 1px solid #2D3436;
+}
+
+.blur {
+	backdrop-filter: blur(10px);
+}
+
+.signupContainer form{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.signupContainer input {
+	width: 100%;
+	background: transparent;
+	border: 0px;
+	outline: 0px;
+	border-bottom: 1px solid #2D3436;
+	padding-bottom: 6px;
+    margin: 20px 0px;
+	transition: border-color 0.2s;
+}
+
+.signupContainer input:focus{
+	border-color: #FFCEA6;
+	background: transparent;
+}
+
+.signupContainer button{
+	width: 100%;
+	border: 0px;
+	border-radius: 7px;
+	background-color: #2D3436;
+	padding: 10px 0px;
+	color: #FFCEA6;
+	transition: all 0.5s;
+}
+
+.signupContainer button:disabled{
+	background-color: #6c7274;
+	color: #fcd9be;
+}
+
+.signupContainer a{
+	margin: 10px 0px;
+	color: #2D3436;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+	.signupContainer {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+	.signupContainer {
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.signupContainer {
+		width: 30%;
+	}
+}
